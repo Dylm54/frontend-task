@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 1150px) {
+  .aboveFooter {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+}
+
+@media (max-width: 1050px) {
+  .aboveFooter {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+}
+
+@media (max-width: 915px) {
+  .aboveFooter {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2.5rem !important;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .aboveFooter2 {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .footLists {
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    flex-direction: column-reverse !important;
+  }
+
+  .social {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .dribble {
+    margin-right: 0 !important;
+  }
+}
